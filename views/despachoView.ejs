@@ -1,0 +1,48 @@
+<link href="/css/despacho.css" rel="stylesheet">
+
+<h3><%= t('despachosView.title') %></h3>
+
+<div class="row">
+
+  <div class="col-4 text-center">
+
+    <img src="/images/puertos de argentina.jfif"
+         alt="<%= t('despachosView.images.puertos.alt') %>"
+         class="img-fluid border border-dark border-1"
+         style="cursor: pointer;"
+         onclick="mostrarImagenEnNuevaVentana(this)">
+    <span><%= t('despachosView.images.puertos.caption') %></span>
+    <br><br>
+
+    <img src="/images/importacion.gif"
+         alt="<%= t('despachosView.images.importacion.alt') %>"
+         class="img-fluid border border-dark border-1"
+         style="cursor: pointer;"
+         onclick="mostrarImagenEnOverlay(this)">
+    <span><%= t('despachosView.images.importacion.caption') %></span>
+    <br><br>
+
+    <img src="/images/exportacion.gif"
+         alt="<%= t('despachosView.images.exportacion.alt') %>"
+         class="img-fluid border border-dark border-1"
+         style="cursor: pointer;"
+         onclick="mostrarImagenEnOverlay(this)">
+    <span><%= t('despachosView.images.exportacion.caption') %></span>
+    <br><br>
+
+  </div>
+
+
+  <div class="col-8">
+    <p>
+      <% t('despachosView.services').forEach(function(item){ %>
+        • <%= item %><br>
+      <% }) %>
+    </p>
+  </div>
+
+</div>
+
+<div id="overlay">
+  <img id="overlay-img" src="" alt="<%= t('despachosView.overlay.alt') %>" />
+</div>

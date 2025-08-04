@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="<%= idioma %>">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de prueba</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/layout.css">
+    <!-- Bootstrap CSS -->
+    <link href="/bootstrapCSS/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="/bootstrapICONS/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="/fontAwesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Flag Icons -->
+    <link href="/flag-icons/css/flag-icons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="container-fluid p-0">
+        <img src="/images/logo.jpg" 
+             alt="<%= t('layoutView.logo') %>" 
+             class="img-fluid w-100"/>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="d-flex justify-content-between align-items-center px-3">
+
+        <div>
+            <a href="/" <%= pathActual === '/' ? 'aria-current=page' : '' %>>
+                Home
+            </a>
+
+
+            <a href="/cargaInternacional" <%= pathActual === '/cargaInternacional' ? 'aria-current=page' : '' %>>
+                <%= t('layoutView.cargaInternacional') %>
+            </a>
+
+            <a href="/logistica" <%= pathActual === '/logistica' ? 'aria-current=page' : '' %>>
+                <%= t('layoutView.logistica') %>
+            </a>
+
+            <a href="/despacho" <%= pathActual === '/despacho' ? 'aria-current=page' : '' %>>
+                <%= t('layoutView.despacho') %>
+            </a>
+
+            <a href="/contacto" <%= pathActual === '/contacto' ? 'aria-current=page' : '' %>>
+                <%= t('layoutView.contactenos') %>
+            </a>
+        </div>
+
+
+        <div class="dropdown">
+
+            <button id="lenguajeDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false" class="btn btn-outline-light dropdown-toggle">
+                <%= t('layoutView.lenguaje') %>: 
+                <span id="lenguajeActual"><%= idiomaInfo.name %></span>
+                <span id="lenguajeActualBandera" class="<%= idiomaInfo.flagClass %>"></span>
+            </button>
+
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lenguajeDropdown">
+
+                <li>
+                    <a class="dropdown-item" 
+                       href="/layout/cambiarLenguaje/es"  
+                       data-lang="es"
+                       onclick="cambiarLenguaje(this, event)"> <!-- href hace una solicitud a una ruta para que haga la lógica del lado del servidor -->
+                       Español <span class="fi fi-es"></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" 
+                        href="/layout/cambiarLenguaje/en" 
+                        data-lang="en"
+                        onclick="cambiarLenguaje(this, event)"> <!-- href hace una solicitud a una ruta para que haga la lógica del lado del servidor -->
+                        English <span class="fi fi-us"></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" 
+                       href="/layout/cambiarLenguaje/pt" 
+                       data-lang="pt"
+                       onclick="cambiarLenguaje(this, event)"> <!-- href hace una solicitud a una ruta para que haga la lógica del lado del servidor -->
+                       Português <span class="fi fi-pt"></span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- CUERPO DE LA RUTA ACTUAL -->
+    <main class="container">
+        <div class="row">
+            <div class=" col-12">
+
+                <div id="plantillaSecundaria">
+                    <%- include(body) %> <!-- Plantilla secundaria acá. Lo que cambia en cada página -->
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- COOKIES -->
+    <% if (mostrarCookieBanner) { %>
+        <div id="cookie-banner">
+            Este sitio web utiliza cookies para mejorar tu experiencia de navegación. <br>
+            Al continuar navegando, aceptas el uso de cookies.
+            <button id="accept-btn" onclick="aceptarCookies()">Aceptar</button>
+        </div>
+    <% } %>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-fluid">
+            
+            <div class="row" style="background-color: #389696;">
+
+                <div class="col-md-6">
+                    <i class="bi bi-geo-alt"></i>
+                    <%= t('layoutView.ubicacion') %>: Calle Real 456 - Capital Federal, Buenos Aires, Argentina
+                </div>
+               
+                <div class="col-md-3">
+                    <i class="bi bi-telephone"></i>
+                    <%= t('layoutView.telefono') %>: (54+ 11) 1234-5678
+                </div>
+
+                <div class="col-md-3">
+                    <i class="bi bi-printer"></i>
+                    Fax: (54+ 11) 1234-5678
+                </div>
+
+            </div>
+            
+            <div class="row" style="background-color: #333;">
+                <div class="col-md-12">Copyright &copy; TransLogix Global</div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="/bootstrapJS/bootstrap.bundle.min.js"></script>
+    <!-- Funciones utiles que se usan en todas las vistas -->
+    <script src="/js/utilFrontend.js"></script>
+</body>
+
+</html>

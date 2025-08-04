@@ -1,0 +1,74 @@
+<h3><%= t('homeView.main_title') %></h3>
+
+<img src="/images/viaje al mundo.jpg" 
+     alt="<%= t('homeView.viaje_alt') %>" 
+     class="img-fluid float-end w-25 ms-3 mb-3">
+
+<p>
+  <%= t('homeView.intro') %>
+  <br>
+  <%= t('homeView.intro2') %>
+  <br><br>
+
+  <strong><%= t('homeView.mission_title') %></strong><br>
+  <%= t('homeView.mission') %>
+  <br><br>
+
+  <strong><%= t('homeView.vision_title') %></strong><br>
+  <%= t('homeView.vision') %>
+  <br><br>
+
+  <strong><%= t('homeView.values_title') %></strong><br>
+  <% t('homeView.values').forEach(function(item) { %>
+    • <%= item %><br>
+  <% }) %>
+</p>
+
+<br>
+
+<div class="row">
+
+  <div class="col-1"></div>
+
+  <div class="row">
+  <div class="col-1"></div>
+
+  <div class="col-5 text-center">
+
+    <a href="/editorial">
+
+      <%= t('homeView.editorial_title') %>
+
+      <div class="ratio ratio-1x1">
+        <img
+          src="/images/industria editorial.png"
+          alt="<%= t('homeView.editorial_alt') %>"
+          class="img-fluid"
+          style="object-fit: cover;">
+      </div>
+
+    </a>
+
+  </div>
+
+  <div class="col-5 text-center">
+
+    <a href="/proyectos">
+
+      <%= t('homeView.proyectos_title') %>
+
+      <div class="ratio ratio-1x1">
+        <img
+          src="/images/proyectos especiales.jpg"
+          alt="<%= t('homeView.proyectos_alt') %>"
+          class="img-fluid"
+          style="object-fit: cover;">
+      </div>
+
+    </a>
+
+  </div>
+
+  <div class="col-1"></div>
+
+</div>

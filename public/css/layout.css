@@ -1,0 +1,63 @@
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+}
+
+#cookie-banner button {
+  margin-left: 16px;
+  padding: 6px 12px;
+  background: #f1d600;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+    background-color: #4cafaf;
+    color: white;
+    padding: 0px;
+}
+
+body {
+  /* background-image: url('/images/fondo.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+nav {
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+}
+        
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+        
+nav a:hover {
+    color: #ccc;
+}
+
+nav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #f1d600;
+}
+
+#plantillaSecundaria {
+    padding: 20px;
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    width: 100%;
+}

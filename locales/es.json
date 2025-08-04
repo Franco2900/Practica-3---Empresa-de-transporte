@@ -1,0 +1,327 @@
+{
+	"layoutView": {
+		"logo": "Foto compañia de transporte",
+		"cargaInternacional": "Carga Internacional",
+		"logistica": "Logistica",
+		"despacho": "Despacho",
+		"contactenos": "Contactenos",
+		"lenguaje": "Lenguaje",
+		"ubicacion": "Ubicación",
+		"telefono": "Teléfono"
+	},
+	"homeView": {
+		"main_title": "¿Quiénes somos?",
+		"intro": "TransLogix Global es una compañía especializada en soluciones integrales de transporte y logística, conformada por un equipo de expertos dedicados a gestionar envíos de carga desde cualquier punto de Argentina hacia el mundo, así como desde los lugares más remotos hasta nuestro país.",
+		"intro2": "A través de nuestra extensa red de corresponsales en los países de origen y destino, proporcionamos información detallada sobre el estado y avance de tus mercancías.",
+		"mission_title": "Misión:",
+		"mission": "Posicionarnos como referentes en servicios logísticos, abarcando transporte, almacenamiento, gestión aduanera y distribución interna, con un enfoque en la excelencia y la creación de valor agregado para nuestros clientes.",
+		"vision_title": "Visión:",
+		"vision": "En un escenario cada vez más competitivo y tecnificado, destacarnos por la eficiencia, innovación y confiabilidad de nuestros servicios de transporte y logística.",
+		"values_title": "Valores:",
+		"values": [
+			"Compromiso con el cliente",
+			"Profesionalismo y especialización",
+			"Integridad y ética",
+			"Respeto y confiabilidad",
+			"Compromiso con la calidad y la seguridad",
+			"Responsabilidad frente a clientes, proveedores y colaboradores"
+		],
+		"viaje_alt": "Foto viaje al mundo",
+		"editorial_title": "Industria Editorial",
+		"editorial_alt": "Foto industria editorial",
+		"proyectos_title": "Proyectos Especiales",
+		"proyectos_alt": "Foto proyectos especiales"
+	},
+	"cargaInternacionalView": {
+		"main_title": "Logística de Carga Internacional",
+		"description": "Ofrecemos soluciones integrales para tus envíos internacionales, asegurando el medio más eficiente en cada paso gracias a nuestra red de agentes en todo el mundo.",
+		"maritime": {
+			"title": "Transporte Marítimo",
+			"items": [
+				"Negociación de fletes con las principales compañías navieras.",
+				"Gestión de carga consolidada (LCL) y contenedor completo (FCL) hacia todos los puertos del mundo.",
+				"Traslado de contenedores y carga general hasta puerto o depósito.",
+				"Consolidación y desconsolidación en depósito fiscal.",
+				"Inspección de mercancías a la llegada.",
+				"Atención especializada en zonas portuarias.",
+				"Pago directo a navieras y terminales.",
+				"Emisión de documentos de embarque.",
+				"Tramitación de la documentación de importación y exportación.",
+				"Cobertura de agentes en los cinco continentes.",
+				"Seguro internacional de mercancías."
+			]
+		},
+		"air": {
+			"title": "Transporte Aéreo",
+			"items": [
+				"Contratación de espacios con aerolíneas líderes.",
+				"Recogida y entrega puerta a puerta desde el depósito del exportador hasta el aeropuerto.",
+				"Distribución nacional de mercancías desde el aeropuerto hasta tu destino.",
+				"Rotulado profesional de bultos.",
+				"Consolidación y desconsolidación de carga general y peligrosa en las principales rutas.",
+				"Personal experto en logística aeroportuaria.",
+				"Servicio exprés puerta a puerta.",
+				"Gestión de envíos de muestras.",
+				"Emisión rápida de documentos de transporte.",
+				"Tramitación completa de la documentación aduanera.",
+				"Cobertura de seguro internacional."
+			]
+		},
+		"land": {
+			"title": "Transporte Terrestre",
+			"items": [
+				{
+					"text": "Camión completo con recogida y entrega en fábrica."
+				},
+				{
+					"text": "Camión parcializado con recogida y entrega en fábrica."
+				},
+				{
+					"text": "Servicios con semirremolques: flatbed, baranda, equipos y chasis."
+				},
+				{
+					"text": "Transporte de contenedores 20\" y 40\" (Std., Jumbo y Open Top)."
+				},
+				{
+					"text": "Logística de carga y descarga de contenedores en todo el país."
+				},
+				{
+					"text": "Transporte de cargas sobredimensionadas y pesadas."
+				},
+				{
+					"text": "Movilización de maquinaria vial y proyectos especiales."
+				},
+				{
+					"text": "Servicios con semirremolques y carretones."
+				},
+				{
+					"text": "Soluciones multimodales integradas."
+				},
+				{
+					"text": "Servicios terrestres de y hacia:",
+					"countries": [
+						{
+							"name": "Bolivia",
+							"flag": "fi fi-bo"
+						},
+						{
+							"name": "Brasil",
+							"flag": "fi fi-br"
+						},
+						{
+							"name": "Chile",
+							"flag": "fi fi-cl"
+						},
+						{
+							"name": "Paraguay",
+							"flag": "fi fi-py"
+						},
+						{
+							"name": "Uruguay",
+							"flag": "fi fi-uy"
+						}
+					]
+				}
+			]
+		}
+	},
+	"logisticaView": {
+		"main_title": "Logística",
+		"description": "TransLogix Global cuenta con una división de logística diseñada para adaptar sus servicios a las necesidades específicas de cada cliente.",
+		"services": {
+			"carga_descarga": "Operaciones de carga y descarga",
+			"distribucion": "Distribución nacional",
+			"deposito_fiscal": "Almacenamiento en depósito fiscal",
+			"fraccionamiento_carga": "Fraccionamiento y preparación de cargas",
+			"control_stock_envio_estados": "Gestión de inventarios y reportes",
+			"paletizado": "Paletizado profesional",
+			"retractilado": "Retractilado y protección",
+			"trasbordo_carga": "Operaciones de trasbordo",
+			"armado_consolidado": "Consolidación de cargas"
+		},
+		"details": {
+			"title": "Detalles",
+			"items": {
+				"carga_descarga": {
+					"label": "Operaciones de Carga y Descarga",
+					"description": "Manipulación manual y con grúas que asegura el manejo seguro y eficiente de la mercancía."
+				},
+				"distribucion": {
+					"label": "Distribución Nacional",
+					"description": "Cobertura en todo el país para cargas de cualquier volumen con rutas optimizadas que reducen tiempos de entrega."
+				},
+				"deposito_fiscal": {
+					"label": "Almacenamiento en Depósito Fiscal",
+					"description": "Espacios controlados con acceso restringido y cumplimiento de la normativa aduanera."
+				},
+				"fraccionamiento_carga": {
+					"label": "Fraccionamiento y Preparación de Cargas",
+					"description": "Recepción, selección y división de mercancías para el armado de pallets normalizados."
+				},
+				"control_stock_envio_estados": {
+					"label": "Gestión de Inventarios y Reportes",
+					"description": "Informes semanales o mensuales sobre el estado y ubicación de tus existencias."
+				},
+				"paletizado": {
+					"label": "Paletizado Profesional",
+					"description": "Armado de pallets en tarimas certificadas para optimizar el espacio y reducir costos de transporte."
+				},
+				"retractilado": {
+					"label": "Retractilado y Protección",
+					"description": "Envoltura antihumedad y antisuciedad que protege tus pallets durante el tránsito."
+				},
+				"trasbordo_carga": {
+					"label": "Trasbordo de Cargas",
+					"description": "Transferencia eficiente entre camión, tren o contenedor para garantizar continuidad logística."
+				},
+				"armado_consolidado": {
+					"label": "Consolidación de Cargas",
+					"description": "Armado de contenedores de 20” y 40” o envíos aéreos, tanto en Argentina como en el exterior."
+				}
+			}
+		}
+	},
+	"contactView": {
+		"title": "Contáctenos",
+		"description": "Por favor, complete el siguiente formulario. Los campos marcados con (*) son obligatorios.",
+		"fields": {
+			"empresa": {
+				"label": "Empresa (*)"
+			},
+			"persona": {
+				"label": "Persona de contacto (*)"
+			},
+			"direccion": {
+				"label": "Dirección de contacto (*)"
+			},
+			"telefono": {
+				"label": "Teléfono (*)",
+				"placeholder": "+54 11 1234-5678"
+			},
+			"email": {
+				"label": "Correo electrónico (*)",
+				"placeholder": "ejemplo@gmail.com"
+			},
+			"fax": {
+				"label": "Fax",
+				"placeholder": "+54 11 8765-4321"
+			},
+			"mercaderia": {
+				"label": "Tipo de mercadería (*)",
+				"placeholder": "Ej: Electrónica, alimentos, textiles"
+			},
+			"transporte": {
+				"label": "Tipo de transporte (*)",
+				"options": {
+					"placeholder": "-- Seleccione --",
+					"aereo": "Aéreo",
+					"maritimo": "Marítimo",
+					"terrestre": "Terrestre"
+				}
+			},
+			"contenedor": {
+				"label": "Tipo de contenedor",
+				"placeholder": "Ej: 20ft, 40ft, refrigerado"
+			},
+			"peso": {
+				"label": "Peso (kg)",
+				"placeholder": "Ej: 150.5"
+			},
+			"volumen": {
+				"label": "Volumen (m³)",
+				"placeholder": "Ej: 2.75"
+			},
+			"destino": {
+				"label": "Destino (*)"
+			}
+		},
+		"submit": "Enviar"
+	},
+	"editorialView": {
+		"header": "Soluciones Integrales para la Industria Editorial",
+		"section1": {
+			"text": "Con más de una década de experiencia, gestionamos publicaciones periódicas y libros con precisión y pasión. Participamos activamente en las principales ferias internacionales, como Buenos Aires, LIBER en España y FIL Guadalajara en México.",
+			"image": {
+				"alt": "Stand en feria del libro"
+			}
+		},
+		"section2": {
+			"text": "Nos encargamos del consolidado de envíos desde los principales puertos de origen hasta su destino final, siempre optimizando costos y tiempos. Retiramos sus publicaciones en cualquier punto de habla hispana, inglesa, francesa o alemana, garantizando rapidez, seguridad y eficiencia aduanera.",
+			"image": {
+				"alt": "Cajas de libros listas para envío"
+			}
+		},
+		"section3": {
+			"text": "Asesoramos a compañías que ingresan al mercado exterior de libros y publicaciones, gestionando toda la documentación ante la Aduana Argentina. Ofrecemos servicios de marcado, etiquetado, desconsolidación y corrección de erratas, avalados por nuestra trayectoria con más de veinte clientes del sector editorial.",
+			"image": {
+				"alt": "Gestión aduanera y documentación"
+			}
+		}
+	},
+  	"proyectosEspecialesView": {
+		"header": "Proyectos Logísticos a Medida",
+		"intro": "Desarrollamos proyectos “llave en mano” de importación y exportación hacia cualquier destino, incluyendo soluciones de triangulación cuando los envíos directos no son viables.",
+		"intro2": "Desde Argentina, coordinamos el retiro, traslado y despacho de su mercadería, así como la recepción y distribución en el territorio nacional.",
+		"exampleTitle": "Ejemplo de Proyecto Especial",
+		"example": {
+		"title": "Exportación de Máquinas para PET",
+		"problemTitle": "Desafío Logístico",
+		"problem": "Equipos situados en múltiples ubicaciones, con componentes desmontados y pesos voluminosos que requerían rearmado previo al despacho.",
+		"workTitle": "Solución Implementada",
+		"workItems": [
+			"Inspección técnica in situ de cada máquina.",
+			"Clasificación según estado y requerimientos de manipulación.",
+			"Coordinación con servicios de embalaje y transporte especial en depósito fiscal.",
+			"Reempaque, consolidación y aseguramiento de la carga.",
+			"Gestión aduanera especializada y permisos de tránsito.",
+			"Traslado interno hasta el puerto de salida con custodia.",
+			"Organización del embarque en la terminal correspondiente."
+		],
+		"image": {
+			"alt": "Proceso de proyecto especial"
+		}
+		},
+		"expertiseIntro": "Contamos con un equipo especializado en:",
+		"expertiseList": [
+		"Transporte ferroviario de gran tonelaje",
+		"Disponición de grúas de alta capacidad",
+		"Movilización de materiales de construcción",
+		"Gestión de mercancías peligrosas",
+		"Logística para embarcaciones y yates"
+		],
+		"closing": "Estamos a su disposición para diseñar la solución logística que su negocio necesita, sin importar el origen o destino de sus envíos."
+	},
+	"despachosView": {
+		"title": "Despachos",
+		"images": {
+			"puertos": {
+				"alt": "Puertos de Argentina foto",
+				"caption": "Puertos de Argentina"
+			},
+			"importacion": {
+				"alt": "Importación foto",
+				"caption": "Diagrama de importación"
+			},
+			"exportacion": {
+				"alt": "Exportación foto",
+				"caption": "Diagrama de exportación"
+			}
+		},
+		"services": [
+			"Oficialización de despachos de importación o exportación.",
+			"Tránsitos a todas las zonas francas del país.",
+			"Traslados, expedientes temporales, efectos personales, mudanzas.",
+			"Clasificación arancelaria.",
+			"Gestión ante organismos oficiales:",
+			"Apertura de Carta de crédito.",
+			"Inscripción de empresas como Importadores – Exportadores, ante la AFIP.",
+			"Declaración Jurada DJCP, intervención ante la ANMAT, Secretaría de Comercio INAL, SENASA, Certificados de origen.",
+			"Solicitud de inspección pre-embarque.",
+			"Asesoramiento integral sobre las necesidades y requisitos de cada embarque.",
+			"Pago de gravámenes aduaneros y servicios anexos a cada operación (agencia marítima, terminales portuarias, depósitos fiscales)."
+		],
+		"overlay": {
+			"alt": "Vista ampliada"
+		}
+	}
+}

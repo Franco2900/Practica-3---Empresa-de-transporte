@@ -1,0 +1,44 @@
+<h3><%= t('proyectosEspecialesView.header') %></h3>
+
+<p><%= t('proyectosEspecialesView.intro') %></p>
+<p><%= t('proyectosEspecialesView.intro2') %></p>
+
+<h5><%= t('proyectosEspecialesView.exampleTitle') %></h5>
+<div class="row">
+
+  <div class="col-12 col-md-8">
+    <p class="mb-0">
+      <i><%= t('proyectosEspecialesView.example.title') %></i>
+      <br><br>
+
+      <i><%= t('proyectosEspecialesView.example.problemTitle') %></i>
+      <br>
+      <%= t('proyectosEspecialesView.example.problem') %>
+      <br><br>
+
+      <i><%= t('proyectosEspecialesView.example.workTitle') %></i>
+      <br>
+      <% t('proyectosEspecialesView.example.workItems').forEach(function(item) { %>
+        ● <%= item %> <br>
+      <% }); %>
+      <br>
+    </p>
+  </div>
+
+  <div class="col-12 col-md-4 mt-0 mt-md-3">
+    <img
+      src="/images/proyecto.jpg"
+      alt="<%= t('proyectosEspecialesView.example.image.alt') %>"
+      class="img-fluid float-end w-100"
+    >
+  </div>
+  
+</div>
+
+<p><%= t('proyectosEspecialesView.expertiseIntro') %></p>
+<% t('proyectosEspecialesView.expertiseList').forEach(function(item) { %>
+    ● <%= item %> <br>
+<% }); %>
+
+<br>
+<p><%= t('proyectosEspecialesView.closing') %></p>

@@ -1,0 +1,116 @@
+<link href="/css/logistica.css" rel="stylesheet">
+
+<h3><%= t('logisticaView.main_title') %></h3>
+
+<p><%= t('logisticaView.description') %></p>
+
+<!-- Fila 1 de imágenes -->
+<div class="row gx-1">
+
+  <div class="col-4 text-center">
+    <img src="/images/grua.jpeg"
+         alt="<%= t('logisticaView.services.carga_descarga') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.carga_descarga') %></span>
+  </div>
+
+  <div class="col-4 text-center">
+    <img src="/images/distribucion.webp"
+         alt="<%= t('logisticaView.services.distribucion') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.distribucion') %></span>
+  </div>
+
+  <div class="col-4 text-center">
+    <img src="/images/almacenamiento.webp"
+         alt="<%= t('logisticaView.services.deposito_fiscal') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.deposito_fiscal') %></span>
+  </div>
+
+</div>
+<br>
+
+<!-- Fila 2 de imágenes -->
+<div class="row gx-1">
+
+  <div class="col-4 text-center">
+    <img src="/images/carga fraccionada.jpeg"
+         alt="<%= t('logisticaView.services.fraccionamiento_carga') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.fraccionamiento_carga') %></span>
+  </div>
+
+  <div class="col-4 text-center">
+    <img src="/images/control de carga.png"
+         alt="<%= t('logisticaView.services.control_stock_envio_estados') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.control_stock_envio_estados') %></span>
+  </div>
+
+  <div class="col-4 text-center">
+    <img src="/images/palet.webp"
+         alt="<%= t('logisticaView.services.paletizado') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.paletizado') %></span>
+  </div>
+
+</div>
+<br>
+
+<!-- Fila 3 de imágenes -->
+<div class="row gx-1">
+
+  <div class="col-4 text-center">
+    <img src="/images/retractilado.webp"
+         alt="<%= t('logisticaView.services.retractilado') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.retractilado') %></span>
+  </div>
+
+  <div class="col-4 text-center">
+    <img src="/images/transbordo de carga.webp"
+         alt="<%= t('logisticaView.services.trasbordo_carga') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.trasbordo_carga') %></span>
+  </div>
+
+  <div class="col-4 text-center">
+    <img src="/images/armado de consolidado.jpg"
+         alt="<%= t('logisticaView.services.armado_consolidado') %> foto"
+         class="img-uniform border border-dark border-1">
+    <span><%= t('logisticaView.services.armado_consolidado') %></span>
+  </div>
+
+</div>
+<br>
+
+<h4><%= t('logisticaView.details.title') %></h4>
+<p>
+  • <%= t('logisticaView.details.items.carga_descarga.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.carga_descarga.description') %><br><br>
+
+  • <%= t('logisticaView.details.items.distribucion.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.distribucion.description') %><br><br>
+
+  • <%= t('logisticaView.details.items.deposito_fiscal.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.deposito_fiscal.description') %><br><br>
+
+  • <%= t('logisticaView.details.items.fraccionamiento_carga.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.fraccionamiento_carga.description') %><br><br>
+
+  • <%= t('logisticaView.details.items.control_stock_envio_estados.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.control_stock_envio_estados.description') %><br><br>
+
+  • <%= t('logisticaView.details.items.paletizado.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.paletizado.description') %><br><br>
+
+  • <%= t('logisticaView.details.items.retractilado.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.retractilado.description') %><br><br>
+
+  • <%= t('logisticaView.details.items.trasbordo_carga.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.trasbordo_carga.description') %><br><br>
+
+  • <%= t('logisticaView.details.items.armado_consolidado.label') %>:<br>
+    &emsp;<%= t('logisticaView.details.items.armado_consolidado.description') %>
+</p>

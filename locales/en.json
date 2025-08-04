@@ -1,0 +1,298 @@
+{
+	"layoutView": {
+		"logo": "Transport company photo",
+		"cargaInternacional": "International Cargo",
+		"logistica": "Logistics",
+		"despacho": "Dispatch",
+		"contactenos": "Contact Us",
+		"lenguaje": "Language",
+		"ubicacion": "Location",
+  		"telefono": "Phone"
+	},
+	"homeView": {
+		"main_title": "Who We Are?",
+		"intro": "TransLogix Global is a company specializing in comprehensive transport and logistics solutions, composed of a team of experts dedicated to managing cargo shipments from any point in Argentina to the world, as well as from the most remote locations back to our country.",
+		"intro2": "Through our extensive network of correspondents in origin and destination countries, we provide detailed information about the status and progress of your goods.",
+		"mission_title": "Mission:",
+		"mission": "To position ourselves as leaders in logistics services—including transport, warehousing, customs management, and internal distribution—with a focus on excellence and on creating added value for our clients.",
+		"vision_title": "Vision:",
+		"vision": "In an increasingly competitive and technologically advanced landscape, to stand out for the efficiency, innovation, and reliability of our transport and logistics services.",
+		"values_title": "Values:",
+		"values": [
+		"Customer commitment",
+		"Professionalism and specialization",
+		"Integrity and ethics",
+		"Respect and reliability",
+		"Commitment to quality and safety",
+		"Responsibility toward customers, suppliers, and collaborators"
+		],
+		"viaje_alt": "Travel the world photo",
+		"editorial_title": "Publishing Industry",
+		"editorial_alt": "Publishing industry photo",
+		"proyectos_title": "Special Projects",
+		"proyectos_alt": "Special projects photo"
+	},
+	"cargaInternacionalView": {
+		"main_title": "International Cargo Logistics",
+		"description": "We provide end-to-end solutions for your international shipments, ensuring the most efficient method at every step through our global agent network.",
+
+		"maritime": {
+		"title": "Maritime Transport",
+		"items": [
+			"Freight booking with leading shipping lines.",
+			"Consolidated (LCL) and full-container (FCL) services to and from all ports worldwide.",
+			"Transport of containers and general cargo to port or depot.",
+			"Consolidation and deconsolidation in bonded warehouses.",
+			"Cargo inspection upon discharge.",
+			"Specialized staff in port areas.",
+			"Direct payments to shipping lines and port terminals.",
+			"Issuance of shipping documents.",
+			"Management of import/export documentation.",
+			"Agents operating on five continents.",
+			"International cargo insurance."
+		]
+		},
+
+		"air": {
+		"title": "Air Transport",
+		"items": [
+			"Space booking with top airlines.",
+			"Pickup from exporter’s warehouse and transfer to/from the airport.",
+			"National delivery from the airport to any destination.",
+			"Professional package labeling.",
+			"Consolidation and deconsolidation of general and hazardous cargo on major global routes.",
+			"Airport logistics specialist personnel.",
+			"Express door-to-door service.",
+			"Sample shipments.",
+			"Issuance of airway bills and transport documents.",
+			"Handling of customs paperwork.",
+			"International cargo insurance."
+		]
+		},
+
+		"land": {
+		"title": "Land Transport",
+		"items": [
+			{ "text": "Full truckload (pickup and delivery at your facility)." },
+			{ "text": "Less-than-truckload (pickup and delivery at your facility)." },
+			{ "text": "Services with flatbed and stake-bed semi-trailers, equipment, and chassis." },
+			{ "text": "20\" and 40\" containers (Std., Jumbo, Open Top)." },
+			{ "text": "Container pick-up and drop-off across the country." },
+			{ "text": "Oversized and heavy-lift cargo transport." },
+			{ "text": "Road machinery and special project haulage." },
+			{ "text": "Semi-trailers and dollies." },
+			{ "text": "Integrated multimodal service contracting." },
+			{
+			"text": "Land services to and from:",
+			"countries": [
+				{ "name": "Bolivia",   "flag": "fi fi-bo" },
+				{ "name": "Brazil",    "flag": "fi fi-br" },
+				{ "name": "Chile",     "flag": "fi fi-cl" },
+				{ "name": "Paraguay",  "flag": "fi fi-py" },
+				{ "name": "Uruguay",   "flag": "fi fi-uy" }
+			]
+			}
+		]
+		}
+	},
+	"logisticaView": {
+		"main_title": "Logistics",
+		"description": "TransLogix Global has a logistics division designed to tailor its services to each client’s specific needs.",
+		"services": {
+		"carga_descarga": "Loading and Unloading Operations",
+		"distribucion": "National Distribution",
+		"deposito_fiscal": "Bonded Warehouse Storage",
+		"fraccionamiento_carga": "Cargo Segmentation and Preparation",
+		"control_stock_envio_estados": "Inventory Management and Reporting",
+		"paletizado": "Professional Palletizing",
+		"retractilado": "Shrink Wrapping and Protection",
+		"trasbordo_carga": "Transshipment Operations",
+		"armado_consolidado": "Cargo Consolidation"
+		},
+		"details": {
+		"title": "Details",
+		"items": {
+			"carga_descarga": {
+			"label": "Loading and Unloading Operations",
+			"description": "Manual handling and crane operations ensure safe and efficient cargo management."
+			},
+			"distribucion": {
+			"label": "National Distribution",
+			"description": "Coverage across the country for shipments of any size with optimized routes to reduce delivery times."
+			},
+			"deposito_fiscal": {
+			"label": "Bonded Warehouse Storage",
+			"description": "Controlled facilities with restricted access and compliance with customs regulations."
+			},
+			"fraccionamiento_carga": {
+			"label": "Cargo Segmentation and Preparation",
+			"description": "Receipt, sorting, and division of goods for standardized pallet assembly."
+			},
+			"control_stock_envio_estados": {
+			"label": "Inventory Management and Reporting",
+			"description": "Weekly or monthly reports on the status and location of your stock."
+			},
+			"paletizado": {
+			"label": "Professional Palletizing",
+			"description": "Assembly of pallets on certified platforms to optimize space and reduce transport costs."
+			},
+			"retractilado": {
+			"label": "Shrink Wrapping and Protection",
+			"description": "Moisture- and dirt-resistant wrapping that protects your pallets during transit."
+			},
+			"trasbordo_carga": {
+			"label": "Transshipment Operations",
+			"description": "Efficient transfers between truck, rail, or container to ensure logistical continuity."
+			},
+			"armado_consolidado": {
+			"label": "Cargo Consolidation",
+			"description": "Assembly of 20\" and 40\" containers or air shipments, both domestically and internationally."
+			}
+		}
+		}
+	},
+	"contactView": {
+		"title": "Contact Us",
+		"description": "Please complete the form below. Fields marked with (*) are required.",
+		"fields": {
+			"empresa": {
+				"label": "Company (*)"
+			},
+			"persona": {
+				"label": "Contact Person (*)"
+			},
+			"direccion": {
+				"label": "Contact Address (*)"
+			},
+			"telefono": {
+				"label": "Phone (*)",
+				"placeholder": "+54 11 1234-5678"
+			},
+			"email": {
+				"label": "Email (*)",
+				"placeholder": "example@gmail.com"
+			},
+			"fax": {
+				"label": "Fax",
+				"placeholder": "+54 11 8765-4321"
+			},
+			"mercaderia": {
+				"label": "Type of Goods (*)",
+				"placeholder": "e.g. Electronics, Food, Textiles"
+			},
+			"transporte": {
+				"label": "Transport Type (*)",
+				"options": {
+					"placeholder": "-- Select --",
+					"aereo": "Air",
+					"maritimo": "Sea",
+					"terrestre": "Land"
+				}
+			},
+			"contenedor": {
+				"label": "Container Type",
+				"placeholder": "e.g. 20ft, 40ft, refrigerated"
+			},
+			"peso": {
+				"label": "Weight (kg)",
+				"placeholder": "e.g. 150.5"
+			},
+			"volumen": {
+				"label": "Volume (m³)",
+				"placeholder": "e.g. 2.75"
+			},
+			"destino": {
+				"label": "Destination (*)"
+			}
+		},
+		"submit": "Submit"
+	},
+	"editorialView": {
+		"header": "Comprehensive Solutions for the Publishing Industry",
+		"section1": {
+		"text": "With over a decade of experience, we manage periodicals and books with precision and passion. We actively participate in major international fairs, such as Buenos Aires, LIBER in Spain, and FIL Guadalajara in Mexico.",
+		"image": {
+			"alt": "Book fair booth"
+		}
+		},
+		"section2": {
+		"text": "We handle consolidated shipments from key origin ports to their final destination, always optimizing cost and time. We pick up your publications anywhere in Spanish-, English-, French-, or German-speaking regions, ensuring speed, security, and customs efficiency.",
+		"image": {
+			"alt": "Boxes of books ready for shipment"
+		}
+		},
+		"section3": {
+		"text": "We advise companies entering the foreign market for books and publications, managing all documentation with Argentine Customs. We offer marking, labeling, deconsolidation, and errata correction services, backed by our track record with over twenty clients in the publishing sector.",
+		"image": {
+			"alt": "Customs handling and documentation"
+		}
+		}
+	},
+	"proyectosEspecialesView": {
+		"header": "Tailored Logistics Projects",
+		"intro": "We develop turnkey import and export projects to any destination, including triangulation solutions when direct shipments are not feasible.",
+		"intro2": "From Argentina, we coordinate the pickup, transport, and dispatch of your goods, as well as their reception and distribution within the national territory.",
+		"exampleTitle": "Example of a Special Project",
+		"example": {
+		"title": "Export of PET Machines",
+		"problemTitle": "Logistical Challenge",
+		"problem": "Machines located in multiple locations, with dismantled components and bulky weights requiring reassembly before dispatch.",
+		"workTitle": "Implemented Solution",
+		"workItems": [
+			"On-site technical inspection of each machine.",
+			"Classification according to condition and handling requirements.",
+			"Coordination with specialized packing and transport services at the bonded warehouse.",
+			"Repackaging, consolidation, and securing of the cargo.",
+			"Specialized customs handling and transit permits.",
+			"Internal transport to the departure port with escort.",
+			"Organization of the shipment at the relevant terminal."
+		],
+		"image": {
+			"alt": "Special project process"
+		}
+		},
+		"expertiseIntro": "We have a team specialized in:",
+		"expertiseList": [
+		"Heavy-duty rail transport",
+		"High-capacity crane operations",
+		"Construction materials handling",
+		"Hazardous goods management",
+		"Logistics for vessels and yachts"
+		],
+		"closing": "We are at your disposal to design the logistics solution your business needs, regardless of the origin or destination of your shipments."
+	},
+	"despachosView": {
+		"title": "Dispatches",
+		"images": {
+		"puertos": {
+			"alt": "Photo of Argentine ports",
+			"caption": "Argentine Ports"
+		},
+		"importacion": {
+			"alt": "Import diagram image",
+			"caption": "Import diagram"
+		},
+		"exportacion": {
+			"alt": "Export diagram image",
+			"caption": "Export diagram"
+		}
+		},
+		"services": [
+		"Formalization of import or export clearances.",
+		"Transit services to all free trade zones in the country.",
+		"Transfers, temporary shipments, personal effects, relocations.",
+		"Tariff classification.",
+		"Liaison with governmental agencies:",
+		"Opening of letters of credit.",
+		"Registration of companies as Importers – Exporters with the AFIP.",
+		"Sworn DJCP statements, interventions before ANMAT, INAL Trade Secretariat, SENASA, certificates of origin.",
+		"Pre-shipment inspection requests.",
+		"Comprehensive advice on the requirements and needs of each shipment.",
+		"Payment of customs duties and ancillary services for each operation (shipping agencies, port terminals, bonded warehouses)."
+		],
+		"overlay": {
+		"alt": "Enlarged view"
+		}
+  	}
+
+}

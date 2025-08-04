@@ -1,0 +1,178 @@
+<script>
+  if (<%= formularioEnviado %>) alert('Tu formulario fue enviado'); 
+</script>
+
+
+<h3><%= t('contactView.title') %></h3>
+
+<p>
+  <%= t('contactView.description') %>
+</p>
+
+<form action="/contacto" method="post">
+
+  <div>
+    <label for="empresa"><%= t('contactView.fields.empresa.label') %></label>
+    <input
+      type="text"
+      id="empresa"
+      name="empresa"
+      size="50"
+      required
+    >
+    <br><br>
+  </div>
+
+  <div>
+    <label for="persona"><%= t('contactView.fields.persona.label') %></label>
+    <input
+      type="text"
+      id="persona"
+      name="persona"
+      size="50"
+      required
+    >
+    <br><br>
+  </div>
+
+  <div>
+    <label for="direccion"><%= t('contactView.fields.direccion.label') %></label>
+    <br>
+    <textarea
+      id="direccion"
+      name="direccion"
+      rows="3"
+      style="width: 100%; max-width: 800px;"
+      required
+    ></textarea>
+    <br><br>
+  </div>
+
+  <hr style="background-color: black; height: 4px;">
+
+  <div>
+    <label for="telefono"><%= t('contactView.fields.telefono.label') %></label>
+    <input
+      type="tel"
+      id="telefono"
+      name="telefono"
+      placeholder="<%= t('contactView.fields.telefono.placeholder') %>"
+      required
+    />
+    <br><br>
+  </div>
+
+  <div>
+    <label for="email"><%= t('contactView.fields.email.label') %></label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="<%= t('contactView.fields.email.placeholder') %>"
+      required
+    />
+    <br><br>
+  </div>
+
+  <div>
+    <label for="fax"><%= t('contactView.fields.fax.label') %></label>
+    <input
+      type="tel"
+      id="fax"
+      name="fax"
+      placeholder="<%= t('contactView.fields.fax.placeholder') %>"
+    />
+    <br><br>
+  </div>
+
+  <hr style="background-color: black; height: 4px;">
+
+  <div>
+    <label for="mercaderia"><%= t('contactView.fields.mercaderia.label') %></label>
+    <input
+      type="text"
+      id="mercaderia"
+      name="mercaderia"
+      size="50"
+      placeholder="<%= t('contactView.fields.mercaderia.placeholder') %>"
+      required
+    >
+    <br><br>
+  </div>
+
+  <div>
+    <label for="transporte"><%= t('contactView.fields.transporte.label') %></label>
+    <select id="transporte" name="transporte" required>
+      <option value="">
+        <%= t('contactView.fields.transporte.options.placeholder') %>
+      </option>
+      <option value="Aereo">
+        <%= t('contactView.fields.transporte.options.aereo') %>
+      </option>
+      <option value="Maritimo">
+        <%= t('contactView.fields.transporte.options.maritimo') %>
+      </option>
+      <option value="Terrestre">
+        <%= t('contactView.fields.transporte.options.terrestre') %>
+      </option>
+    </select>
+    <br><br>
+  </div>
+
+  <div>
+    <label for="contenedor"><%= t('contactView.fields.contenedor.label') %></label>
+    <input
+      type="text"
+      id="contenedor"
+      name="contenedor"
+      placeholder="<%= t('contactView.fields.contenedor.placeholder') %>"
+    />
+    <br><br>
+  </div>
+
+  <hr style="background-color: black; height: 4px;">
+
+  <div>
+    <label for="peso"><%= t('contactView.fields.peso.label') %></label>
+    <input
+      id="peso"
+      name="peso"
+      type="number"
+      min="0"
+      step="0.01"
+      placeholder="<%= t('contactView.fields.peso.placeholder') %>"
+    />
+    <br><br>
+  </div>
+
+  <div>
+    <label for="volumen"><%= t('contactView.fields.volumen.label') %></label>
+    <input
+      id="volumen"
+      name="volumen"
+      type="number"
+      min="0"
+      step="0.01"
+      placeholder="<%= t('contactView.fields.volumen.placeholder') %>"
+    />
+    <br><br>
+  </div>
+
+  <div>
+    <label for="destino"><%= t('contactView.fields.destino.label') %></label>
+    <br>
+    <textarea
+      id="destino"
+      name="destino"
+      rows="3"
+      style="width: 100%; max-width: 800px;"
+      required
+    ></textarea>
+    <br><br>
+  </div>
+
+  <button type="submit">
+    <%= t('contactView.submit') %>
+  </button>
+
+</form>

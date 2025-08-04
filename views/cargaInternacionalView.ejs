@@ -1,0 +1,70 @@
+<h3> <%= t('cargaInternacionalView.main_title') %> </h3>
+
+<p> <%= t('cargaInternacionalView.description') %> </p>
+
+<div class="row">
+
+    <div class="col-12 col-md-8">
+        <p class="mb-0">
+            <i class='fa fa-anchor'></i>
+            <strong> <%= t('cargaInternacionalView.maritime.title') %>: </strong> <br>
+            <% t('cargaInternacionalView.maritime.items').forEach(function(value) { %>
+                • <%= value %><br>
+            <% }) %>
+        </p>
+    </div>
+
+    <div class="col-12 col-md-4 mt-0 mt-md-3">
+        <img src="/images/barco carguero.jpg" alt="Barco carguero foto" class="img-fluid float-end w-100">
+    </div>
+
+</div>
+
+<br>
+
+<div class="row">
+  
+    <div class="col-12 col-md-4 order-2 order-md-1 mt-0 mt-md-3">
+        <img src="/images/avion de carga.png" alt="Avión de carga foto" class="img-fluid float-start w-100">
+    </div>
+
+    <div class="col-12 col-md-8 order-1 order-md-2">
+        <p class="mb-0">
+            <i class="bi bi-airplane-fill"></i>
+            <strong> <%= t('cargaInternacionalView.air.title') %>: </strong> <br>
+            <% t('cargaInternacionalView.air.items').forEach(function(value) { %>
+                    • <%= value %><br>
+            <% }) %>
+        </p>
+    </div>
+
+</div>
+
+<br>
+
+<div class="row">
+
+    <div class="col-12 col-md-8">
+        <p class="mb-0">
+            <i class="fa fa-truck"></i>
+            <strong><%= t('cargaInternacionalView.land.title') %>:</strong><br>
+            
+            <% t('cargaInternacionalView.land.items').forEach(function(item) { %>
+                <% if (typeof item === 'string' || !item.countries) { %>
+                    &bull; <%= item.text || item %><br>
+                <% } else { %>
+                    &bull; <%= item.text %>:<br>
+                    <% item.countries.forEach(function(c) { %>
+                        &emsp;&emsp;<%= c.name %> <span class="<%= c.flag %>"></span><br>
+                    <% }) %>
+                <% } %>
+            <% }) %>
+            
+        </p>
+    </div>
+    
+    <div class="col-12 col-md-4 mt-0 mt-md-3">
+        <img src="/images/camion de carga.webp" alt="Camion foto" class="img-fluid float-end w-100">
+    </div>
+
+</div>
